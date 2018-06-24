@@ -9,7 +9,7 @@ const app = express()
 const config = require('./config.json')
 
 app.get('/', function (req, res) {
-  res.send(config.message||'Hello Pawan Shrivastava!')
+  res.send(config.message||'Hello Shrivastava!')
 })
 
 app.listen(config.port, function () {
