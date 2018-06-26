@@ -13,5 +13,5 @@ app.get('/', function (req, res) {
 })
 
 app.listen(config.port, function () {
-  console.log('listening on port ' + String(config.port||3000))
+  console.log('listening on port ' + String(config.port||3500))
 })
